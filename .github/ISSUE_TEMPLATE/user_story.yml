@@ -1,0 +1,32 @@
+name: História de usuário
+title: <breve descrição do requisito>
+description: "Requisito a ser implementado (História de usuário)"
+projects: ["InfiniTADS-UFPR/projects/1"]
+body:
+  - type: textarea
+    attributes:
+      label: "Descrição"
+      placeholder: "Sendo... Quero... Para..."
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Estimativa
+      options:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 5
+        - 8
+        - 13
+        - 20
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Lista de critérios de aceitação"
+      description: "(use o formato de lista do markdown iniciando cada linha com -)"
+      placeholder: "- Deve..."
+    validations:
+      required: true
